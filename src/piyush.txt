@@ -1,3 +1,0 @@
-This is from Git demo branch adding value and Git merge
-apple
-bannaa

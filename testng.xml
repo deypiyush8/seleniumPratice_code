@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Loan Dept">
+    <test name="Personal Loan">
+        <classes>
+            <class name="TestNG.SecondClass">
+                <methods>
+                    <include name="secondOneMethod"/>
+                    <include name="secondTwoMethod"/>
+                    <include name="secondThreeMethod"/>
+                </methods>
+            </class>
+            <class name="TestNG.ThirdClass">
+                <methods>
+                    <include name="thirdOneMethod"/>
+                    <include name="thirdTwoMethod"/>
+                    <exclude name="thirdThreeMethod"/>
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+</suite>
